@@ -1,0 +1,98 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    
+    background-color: rgb(245, 249, 248);
+    display: flex;
+    
+}
+.left-container{
+    /* border: 2px solid green; */
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 500;
+    display: flex;
+    padding: 20 px;
+}
+
+.right-container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content:space-around;
+}
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 10px;
+    color: grey;
+    
+}
+.nav1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: smaller;
+    color: black;
+   
+} 
+.item{
+    width: 800px;
+    height: 500px;
+}
+.content{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 0px 200px 50px;
+    font-size: smaller;
+    font-weight: 100;
+}
+.boot{
+    padding-left: 200px;
+}
+.container2{
+    /* border: 2px solid blue; */
+    padding: 0px 200px 50px;
+}
+.container3{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    
+}
+.card{
+    /* background-color: rgb(230, 24, 24); */
+    display: grid;
+    width: 250px;
+    height: 400px;
+    
+}
+table, th, td {
+   
+  }
+  .table {
+    padding: 0px 200px;
+   
+  }
+  .td{
+    padding: 0px 200px;
+    text-align: center;
+  }
+ table{
+    width: 100%;
+ }
+ form{
+    padding: 0px 200px;
+ }
+ .form-text{
+    font-weight: bold;
+    color: black;
+    padding: 0px 200px;
+ }
